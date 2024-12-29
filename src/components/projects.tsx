@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <section className='flex flex-col items-center gap-6 text-center'>
         <h2 className='text-3xl sm:text-4xl text-primary-foreground font-bold'>Recent Projects</h2>
-        <p>Here are a few things I've been working on lately.</p>
+        <p>Here are a few things I&apos;ve been working on lately.</p>
         <ul>
           {projects.map(project => (
             <li key={project.title}>

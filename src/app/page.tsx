@@ -7,7 +7,7 @@ export default function Home() {
     <main className="w-full flex flex-col gap-20 py-20">
       <section className="w-full flex flex-col items-center justify-center gap-6">
         <h1 className="text-center text-5xl sm:text-6xl">
-          Hey! I'm <b className="font-bold text-primary-foreground">Salar</b>.
+          Hey! I&apos;m <b className="font-bold text-primary-foreground">Salar</b>.
           <br />A{" "}
           <b className="font-bold text-primary-foreground">
             Software Developer
@@ -15,7 +15,7 @@ export default function Home() {
           .
         </h1>
         <p className="text-center">
-          Let's simplify complex stuff.
+          Let&apos;s simplify complex stuff.
         </p>
         <Link
           href={"mailto:salarnto.collab@gmail.com"}
