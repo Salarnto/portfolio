@@ -20,6 +20,9 @@ const techStack = [
     },{
         name: 'Figma',
         src: "/icons/figma.svg"
+    },{
+        name: 'Git',
+        src: "/icons/git.svg"
     }
 ];
 
