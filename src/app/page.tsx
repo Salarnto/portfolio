@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Skills from "../components/skills";
 import Projects from "../components/projects";
 
@@ -17,12 +16,12 @@ export default function Home() {
         <p className="text-center">
           Let&apos;s simplify complex stuff.
         </p>
-        <Link
-          href={"mailto:salarnto.collab@gmail.com"}
+        <a
+          href="mailto:salarnto.collab@gmail.com"
           className="w-fit text-background bg-primary-foreground hover:bg-zinc-300 font-bold p-2 rounded-md transition-colors"
         >
           Reach Me Here!
-        </Link>
+        </a>
       </section>
       <Skills />
       <Projects />

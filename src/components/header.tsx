@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link';
 
 const socials = [
   {
@@ -16,7 +15,7 @@ export default function Header() {
           <ul className='flex justify-between gap-6'>
             {socials.map(social => (
               <li key={social.name}>
-                <Link className='hover:text-primary-foreground' href={social.href} target='_blank'>
+                <a className='hover:text-primary-foreground' href={social.href} target='_blank'>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -26,7 +25,7 @@ export default function Header() {
                   >
                     <path d={social.d} />
                   </svg>
-                </Link>
+                </a>
               </li>
             ))}
           </ul>

@@ -7,7 +7,6 @@ import {
     CardFooter
 } from "@/components/ui/card";
 import Image, { StaticImageData } from 'next/image';
-import Link from 'next/link';
 
 type ProjectCardProps = {
     imageSrc: StaticImageData,
@@ -20,7 +19,7 @@ type ProjectCardProps = {
 export default function ProjectCard({ imageSrc, title, description, techStack, repo }: ProjectCardProps ) {
   return (
     <Card>
-        <Link href={repo} target='_blank'>
+        <a href={repo} target='_blank'>
             <Image
                 src={imageSrc}
                 alt="Project Image"
@@ -44,7 +43,7 @@ export default function ProjectCard({ imageSrc, title, description, techStack, r
                     ))}
                 </ul>
             </CardFooter>
-        </Link>
+        </a>
     </Card>
   )
 }
